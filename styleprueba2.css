@@ -1,0 +1,136 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lancelot&display=swap');
+
+body{
+    font-size: 18px;
+}
+.posicion {
+   display: flex;
+   justify-content: space-between;
+   box-shadow: 0px 5px 0px rgba(111, 210, 111, 0.5);
+   padding: 30px;
+}
+.inicio{
+    display: flex;
+     margin: 30px;
+     text-decoration: none; 
+     color: blue;   
+     }
+.contacto{
+    display: flex;
+    margin: 30px;
+    text-decoration: none;
+    color: blue;  
+ }
+
+.links {
+    display: flex;
+    padding-top: 0px;
+    margin-right: 50px;
+    text-indent: 18px;
+    text-decoration: none;
+}
+h1{
+    font-size: 36px;
+}
+h3{
+    font-size: 28px;
+}
+.foto {
+    width: 50vw;
+    max-width: 500px;
+    min-width: 160px;
+    border-radius: 400px;  
+    padding-top: 30px;
+}
+.contenedorI {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
+}
+.logo {
+   width: 400px;
+   height: 100px;
+}
+.c {
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lancelot', cursive;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;}
+
+.link{   
+      margin: 30px;} 
+
+.conte{
+    background: rgb(111, 210, 111);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 70px 0px;
+}
+.button{
+         display: flex;}
+
+ .button1{
+    background-color: rgb(240, 237, 38);
+    border: 3px solid rgb(240, 237, 38);
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 40px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    justify-content: space-between;
+    width: 190px;
+    font-size: 20px;
+    margin: auto;
+}
+.button1:hover{ background-color: rgb(18, 17, 2);}
+
+.button2{
+    background-color: rgb(0, 38, 255);
+    border: 3px solid rgb(0, 38, 255);
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 40px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    justify-content: space-between;
+    width: 190px;
+    font-size: 20px;
+    margin: auto;
+}
+.button2:hover{ background-color: rgb(18, 17, 2);}
+
+.button3{
+    background-color: hwb(11 0% 0%);
+    border: 3px solid hwb(11 0% 0%);
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 40px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    justify-content: space-between;
+    width: 190px;
+    font-size: 20px;
+    margin: auto;
+}
+.button3:hover{ background-color: rgb(18, 17, 2);}
+
+footer{
+    background: rgb(111, 210, 111);
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+}
+p{ line-height: 1.2; }
